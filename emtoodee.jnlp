@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://users.on.net" href="~mbohun/emtoodee.jnlp">
+
+  <information>
+    <title>emtoodee</title>
+    <vendor>MARTiN Bohun</vendor>
+  </information>
+
+  <resources>
+    <!-- Application Resources -->
+    <j2se version="1.6+"
+	  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="appletgame.jar" main="true" />
+  </resources>
+
+  <applet-desc
+      name="E M T o o D E E"
+      main-class="TileEngineTestApplet"
+      width="480"
+      height="384">
+  </applet-desc>
+
+</jnlp>
